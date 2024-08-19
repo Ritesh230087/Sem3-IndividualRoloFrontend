@@ -1,0 +1,46 @@
+.admin-dashboard {
+    margin-left: 250px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.dashboard-header {
+    background-color: #34495e;
+    color: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.dashboard-header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+.dashboard-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content h2 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.dashboard-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.dashboard-content li {
+    margin-bottom: 10px;
+}

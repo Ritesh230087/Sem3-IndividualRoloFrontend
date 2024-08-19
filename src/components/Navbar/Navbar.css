@@ -1,0 +1,82 @@
+header {
+    background-color: #ffdbb6;
+    padding: 20px 0;
+    height: 130px;
+    width: 100%;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-right: 330px;
+    margin-bottom: 90px;
+
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    padding-bottom: 50px;
+    /*padding: 0;*/
+    margin: 0;
+    cursor: pointer;
+}
+
+ul li hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: green;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.cart-search {
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 80px;
+    gap: 60px;
+}
+.cart-count{
+    height: 18px;
+    width: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -62px;
+    border-radius: 11px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+.cart-search .HomeSign_in {
+    margin-left:20px;
+    height: 30px;
+    width: 110px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.cart-search .HomeSign_in:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}

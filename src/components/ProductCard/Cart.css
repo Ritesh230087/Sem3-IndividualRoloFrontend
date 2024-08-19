@@ -1,0 +1,122 @@
+.cart-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.cart-th {
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: left;
+}
+
+.cart-product-image img {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.cart-product-title {
+    padding: 12px;
+    font-weight: bold;
+    color: #000;
+}
+
+.cart-product-price,
+.cart-product-total {
+    font-weight: bold;
+    padding: 12px;
+    color: lawngreen;
+}
+
+.cart-product-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    justify-content: space-around;
+}
+
+.quantity-controls button {
+    background-color: #ffffff;
+    color: #151515;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quantity-controls button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.cart-product-remove {
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    color: #dc3545;
+}
+
+.cart-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.summary-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.summary-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.summary-info .subtotal,
+.summary-info .total {
+    font-weight: bold;
+    color: lawngreen;
+}
+
+.summary-info .total {
+    font-size: 22px;
+}
+
+.cart-summary .checkout-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.cart-summary .checkout-button:hover {
+    background-color: #0056b3;
+}
+
+.disabled-button {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.out-of-stock-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}

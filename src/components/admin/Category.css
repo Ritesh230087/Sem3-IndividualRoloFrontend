@@ -1,0 +1,57 @@
+.category-page-container {
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.add-category-btn-custom {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+.category-table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.category-table-custom th,
+.category-table-custom td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.category-table-custom th {
+    background-color: #f4f4f4;
+}
+
+.edit-btn-custom,
+.delete-btn-custom {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.edit-btn-custom {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-btn-custom {
+    background-color: #f44336;
+    color: white;
+}
+

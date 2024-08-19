@@ -1,0 +1,51 @@
+.product-form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    margin-left: 250px;
+}
+
+.product-form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.product-form-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.product-form-group input,
+.product-form-group textarea,
+.product-form-group select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-form-group input[type="file"] {
+    padding: 0;
+}
+
+.product-form-group textarea {
+    height: 100px;
+}
+
+.product-form-group select {
+    height: 40px;
+}
+
+.product-form-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-form-button:hover {
+    background-color: #45a049;
+}
